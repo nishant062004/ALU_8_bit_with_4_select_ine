@@ -32,7 +32,7 @@ module ALU_8_bit(
    4'b1010:result=~(a|b);
    4'b1011:result=~a;
    4'b1100:result=~b;
-   //4'b1101:
+   //4'b1101:result=;
   // 4'b1110:result=;
   // 4'b1111:result=;
    default:result=8'b00000000;    
